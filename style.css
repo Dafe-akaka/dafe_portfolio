@@ -37,10 +37,12 @@
 }
 
 .navbar ul li a:hover {
-  border-bottom: 2px solid blue;
+  border-bottom: 2px solid red;
 }
 
-
+body{
+  background: linear-gradient(to left, #7d96aa, #cfd9db);
+}
 
 
 /* Home */
