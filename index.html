@@ -7,6 +7,7 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <nav class="navbar">
       <ul>
@@ -16,18 +17,25 @@
       </ul>
     </nav>
 
-    <section id="home">
-      <h3 class="heading">HELLO, I AM</h3>
-      <h1 class="heading">DAFÉ AKAKA</h1>
-      <p>An aspiring software engineer</p>
+    <section class="home_container" id="home">
+      <div>
+        <div class="home_details">
+          <h3>HELLO, I AM</h3>
+          <h1>DAFÉ AKAKA</h1>
+          <p>An aspiring software engineer</p>
+        </div>
+        <div class="home_img">
+          <img src="images/dafe.png" alt="" />
+        </div>
+      </div>
     </section>
 
     <section class="projects" id="projects">
-      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <h1 class="projects-title">Recent Projects</h1>
       <div class="container">
         <div class="project-container project-card">
           <img
-            src="images/tv_shows.png"
+            src="tv_shows.png"
             alt="expense-tracker"
             loading="lazy"
             class="project-pic"
@@ -47,7 +55,7 @@
         </div>
         <div class="project-container project-card">
           <img
-            src="images/sub_city_events.png"
+            src="sub_city_events.png"
             alt="netflic-clone"
             loading="lazy"
             class="project-pic"
@@ -67,7 +75,7 @@
         </div>
         <div class="project-container project-card">
           <img
-            src="images/firebaseauth.png"
+            src="firebaseauth.png"
             alt="netflic-clone"
             loading="lazy"
             class="project-pic"
