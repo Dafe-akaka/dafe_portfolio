@@ -7,36 +7,93 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <nav class="navbar">
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Education</a></li>
-        <li><a href="#">About me</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
         <li><a href="#">Contact me</a></li>
       </ul>
     </nav>
 
-  <section id="home">
-      <h1 class="heading">HELLO, I AM</h1>
-      <h1 class="heading">DAFÉ AKAKA</h1>
-      <p>AND THIS IS MY RESUME</p>
-    </section>
-
-  <section id="education">
-      <h1 class="heading">Education</h1>
-      <div class="columns">
-        <div class="box">
-          <h2>Bachelors In Economics</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sapiente enim molestias fugit debitis, minima ullam atque impedit voluptates corrupti totam iusto excepturi, vitae ipsum quia eos cupiditate voluptatum dicta!</p>
+    <section class="home_container" id="home">
+      <div>
+        <div class="home_details">
+          <h3>HELLO, I AM</h3>
+          <h1>DAFÉ AKAKA</h1>
+          <p>An aspiring software engineer</p>
         </div>
-        <div class="box">
-          <h2>Academy Coding Bootcamp</h2>
-          <p>Attained a strong understanding of functional programming, front-end development and back-end data management.
-          Developed a full stack app with the PERN stack, which required a creative approach to solve complex problems
-          </p>
+        <div class="home_img">
+          <img src="images/dafe.png" alt="" />
         </div>
       </div>
-  </section>
+    </section>
+
+    <section class="projects" id="projects">
+      <h1 class="projects-title">Recent Projects</h1>
+      <div class="container">
+        <div class="project-container project-card">
+          <img
+            src="images/tv_shows.png"
+            alt="tv_shows"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Tv shows</h3>
+          <p class="project-details">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+            ratione vel inventore labore commodi modi quos culpa aut saepe!
+            Alias!
+          </p>
+          <a
+            href="https://compassionate-agnesi-6be84b.netlify.app/"
+            target="_blank"
+            class="project-link"
+            >Check it Out</a
+          >
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="images/sub_city_events.png"
+            alt="Sub-city-events"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Sub-city Events</h3>
+          <p class="project-details">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+            ratione vel inventore labore commodi modi quos culpa aut saepe!
+            Alias!
+          </p>
+          <a
+            href="https://sub-city.netlify.app/"
+            target="_blank"
+            class="project-link"
+            >Check it Out</a
+          >
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="images/firebaseauth.png"
+            alt="firebase-auth"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Firebase Auth</h3>
+          <p class="project-details">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+            ratione vel inventore labore commodi modi quos culpa aut saepe!
+            Alias!
+          </p>
+          <a
+            href="https://firebaseauthdaf.netlify.app/login"
+            target="_blank"
+            class="project-link"
+            >Check it Out</a
+          >
+        </div>
+      </div>
+    </section>
   </body>
 </html>
